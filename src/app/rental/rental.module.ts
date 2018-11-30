@@ -9,6 +9,7 @@ import { RentalListItemComponent } from "./rental-list-item/rental-list-item.com
 import { RentalComponent } from "./rental.component";
 import { CommonModule } from "@angular/common";
 import { RentalDetailComponent } from './rental-detail/rental-detail.component';
+import { MapModule } from '../common/map/map.module';
 
 const routes: Routes = [
     {
@@ -32,6 +33,7 @@ const routes: Routes = [
         CommonModule,
         HttpClientModule,
         NgPipesModule,
+        MapModule,
         RouterModule.forChild(routes)
     ],
     providers:[RentalService]
