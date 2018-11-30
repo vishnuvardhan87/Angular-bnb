@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+
+.apartment{
+color:#a72da3;
+}
+.condo{
+color:#d68000;
+}
+.house{
+color:#bf1818;
+}
 
 #rentalListing {
     .title {
@@ -23,7 +34,6 @@
           font-weight: 500;
           font-size: 12px;
           text-transform: uppercase;
-          color: #16861a;
         }
   
   
